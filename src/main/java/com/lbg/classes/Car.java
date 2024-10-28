@@ -40,6 +40,8 @@ public class Car {
         this.model = model;
     }
 
+    public void setMake(String model) {this.make = model; }
+
     public void accelerate(int deltaV) {
         if (deltaV > 0) {
             this.speed += deltaV;
